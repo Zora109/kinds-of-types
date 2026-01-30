@@ -49,9 +49,9 @@ public class ObjectTypes {
         // Here’s what’s interesting about methods: they are specific to the _type of the receiver_.
         // For example, try uncommenting this code, and study the error messages you get:
 
-        // int notString = 17;
-        // System.out.println("toUpperCase: " + notString.toUpperCase());
-        // System.out.println("length: " + notString.length());
+        //int notString = 17;
+        //System.out.println("toUpperCase: " + notString.toUpperCase());
+        //System.out.println("length: " + notString.length());
 
         // You can't ask for the upper case version of 17. Integers don't have a toUpperCase method.
         //
